@@ -1,0 +1,10 @@
+id,dataset,db,utility,minsup,minuo,minac,minbond,minkulc,minuob,repeats,warmups
+journal_bmspos2,BMSPOS2,datasets/real/BMSPOS2_UM.txt,datasets/real/BMSPOS2_UM_UtilityTable.txt,0.003,0.30,0.30,0.30,0.30,0.10,10,1
+journal_chess,Chess,datasets/real/chess_UM_New.txt,datasets/real/chess_UM_UtilityTable.txt,0.60,0.30,0.65,0.72,0.65,0.10,10,1
+journal_foodmart,Foodmart,datasets/real/foodmart_UM_New.txt,datasets/real/foodmart_UM_UtilityTable.txt,0.001,0.30,0.30,0.30,0.30,0.10,10,1
+journal_kosarak,Kosarak,datasets/real/kosarak_UM_New.txt,datasets/real/kosarak_UM_UtilityTable.txt,0.045,0.30,0.30,0.30,0.30,0.10,10,1
+journal_mushroom,Mushroom,datasets/real/mushroom_UM_New.txt,datasets/real/mushroom_UM_UtilityTable.txt,0.20,0.30,0.50,0.50,0.50,0.10,10,1
+journal_retail,Retail,datasets/real/retail_UM_New.txt,datasets/real/retail_UM_UtilityTable.txt,0.045,0.30,0.30,0.30,0.30,0.10,10,1
+journal_pumsb,Pumsb,datasets/real/pumsb_UM_New.txt,datasets/real/pumsb_UM_UtilityTable.txt,0.70,0.30,0.50,0.50,0.50,0.10,10,1
+journal_t10n_100k,T10I4N4KD100K,datasets/real/T10I4N4KD100K_UM_New.txt,datasets/real/T10I4N4KD100K_UM_UtilityTable.txt,0.003,0.30,0.30,0.30,0.30,0.10,10,1
+journal_t10n_500k,T10I4N4KD500K,datasets/real/T10I4N4KD500K_UM_New.txt,datasets/real/T10I4N4KD500K_UM_UtilityTable.txt,0.003,0.30,0.30,0.30,0.30,0.10,10,1

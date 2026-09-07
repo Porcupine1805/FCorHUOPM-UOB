@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use this software, please cite the accompanying JIIS manuscript.
+title: "FCorHUOPM-UOB: Utility-Occupancy Bond for Exact Correlated High-Utility Occupancy Pattern Mining"
+type: software
+authors:
+  - family-names: Chien
+    given-names: Nguyen Khac
+    email: nkchienster@gmail.com
+  - family-names: Phat
+    given-names: Tran Cong
+    email: trancphat@gmail.com
+repository-code: "https://github.com/Porcupine1805/FCorHUOPM-UOB"
+url: "https://github.com/Porcupine1805/FCorHUOPM-UOB"
+date-released: "2026-09-06"
+version: "jiis-submission-20260906"
+keywords:
+  - high-utility occupancy mining
+  - correlated pattern mining
+  - Utility-Occupancy Bond

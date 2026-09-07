@@ -1,0 +1,36 @@
+\begin{table*}[t]
+\caption{Ablation summary on representative datasets (medians over ten observations)}\label{tab:ablationnew}
+\centering\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Dataset & Variant & Pat. & Runtime (ms) & Nodes & EDA aborts & DUO processed & Lazy skips\\
+\midrule
+BMSPOS2 & FCorHUOPM-UOB & 14 & 7,112 & 281 & 2,034 & 241,274 & 35,635\\
+BMSPOS2 & No EDA & 14 & 11,050 & 2,340 & 0 & 215,358,049 & 35,684\\
+BMSPOS2 & No UO bound & 14 & 7,088 & 281 & 2,034 & 241,274 & 35,635\\
+BMSPOS2 & Eager DUO & 14 & 7,404 & 281 & 37,668 & 251,153 & 0\\
+BMSPOS2 & Recompute DUO & 14 & 16,618 & 2,340 & 0 & 431,738,993 & 35,684\\
+Chess & FCorHUOPM-UOB & 65 & 1,442 & 6,972 & 2,758 & 22,154,376 & 946\\
+Chess & No EDA & 65 & 1,618 & 11,131 & 0 & 35,442,828 & 1,110\\
+Chess & No UO bound & 65 & 3,862 & 27,802 & 9,750 & 88,725,944 & 1,312\\
+Chess & Eager DUO & 65 & 1,528 & 6,972 & 3,014 & 24,326,224 & 0\\
+Chess & Recompute DUO & 65 & 4,852 & 11,131 & 0 & 184,600,077 & 1,110\\
+Mushroom & FCorHUOPM-UOB & 6 & 436 & 966 & 1,306 & 6,452,544 & 715\\
+Mushroom & No EDA & 6 & 648 & 3,155 & 0 & 23,561,136 & 752\\
+Mushroom & No UO bound & 6 & 394 & 1,240 & 1,647 & 8,666,851 & 729\\
+Mushroom & Eager DUO & 6 & 504 & 966 & 1,808 & 7,456,927 & 0\\
+Mushroom & Recompute DUO & 6 & 1,317 & 3,155 & 0 & 74,256,065 & 752\\
+Pumsb & FCorHUOPM-UOB & 0 & 8,642 & 1,497 & 616 & 71,364,311 & 341\\
+Pumsb & No EDA & 0 & 9,489 & 2,521 & 0 & 121,467,497 & 392\\
+Pumsb & No UO bound & 0 & 123,969 & 53,439 & 18,589 & 2,618,826,820 & 1,836\\
+Pumsb & Eager DUO & 0 & 8,872 & 1,497 & 752 & 81,291,002 & 0\\
+Pumsb & Recompute DUO & 0 & 17,464 & 2,521 & 0 & 495,257,269 & 392\\
+T10I4N4KD500K & FCorHUOPM-UOB & 37 & 24,905 & 1,235 & 4 & 13,784 & 759,048\\
+T10I4N4KD500K & No EDA & 37 & 23,236 & 1,240 & 0 & 52,789 & 759,048\\
+T10I4N4KD500K & No UO bound & 37 & 24,104 & 1,235 & 4 & 13,784 & 759,522\\
+T10I4N4KD500K & Eager DUO & 37 & 42,872 & 1,235 & 758,975 & 306,256 & 0\\
+T10I4N4KD500K & Recompute DUO & 37 & 41,606 & 1,240 & 0 & 111,196 & 759,048\\
+\bottomrule
+\end{tabular}}
+\end{table*}

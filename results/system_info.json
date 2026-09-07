@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-08-24T15:45:05Z",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "ARMv8 (64-bit) Family 8 Model 1 Revision 201, Qualcomm Technologies Inc",
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "java": "java version \"24.0.1\" 2025-04-15\nJava(TM) SE Runtime Environment (build 24.0.1+9-30)\nJava HotSpot(TM) 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)",
+  "javac": "javac 24.0.1",
+  "cpu_count": 10,
+  "ram_bytes": 16757260288
+}

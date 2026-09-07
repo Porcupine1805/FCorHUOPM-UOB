@@ -1,0 +1,10 @@
+dataset,database,utility_table,input_transactions,valid_transactions,removed_zero_tu_transactions,distinct_items,item_occurrences,utility_table_items,zero_utility_items,status
+kosarak,kosarak_UM_New.txt,kosarak_UM_UtilityTable.txt,990002,989949,53,41270,8019015,41271,41,VALID
+retail,retail_UM_New.txt,retail_UM_UtilityTable.txt,88162,88159,3,16468,908483,16470,16,VALID
+BMSPOS2,BMSPOS2_UM.txt,BMSPOS2_UM_UtilityTable.txt,515366,515366,0,1656,3359629,1657,1,VALID
+chess,chess_UM_New.txt,chess_UM_UtilityTable.txt,3196,3196,0,75,118252,76,0,VALID
+foodmart,foodmart_UM_New.txt,foodmart_UM_UtilityTable.txt,21556,21556,0,1559,86832,1560,1,VALID
+mushroom,mushroom_UM_New.txt,mushroom_UM_UtilityTable.txt,8124,8124,0,119,186852,120,0,VALID
+pumsb,pumsb_UM_New.txt,pumsb_UM_UtilityTable.txt,49046,49046,0,2113,3629404,7117,7,VALID
+T10I4N4KD100K,T10I4N4KD100K_UM_New.txt,T10I4N4KD100K_UM_UtilityTable.txt,98307,98307,0,3533,998250,3999,3,VALID
+T10I4N4KD500K,T10I4N4KD500K_UM_New.txt,T10I4N4KD500K_UM_UtilityTable.txt,491615,491615,0,3547,4990317,3999,3,VALID

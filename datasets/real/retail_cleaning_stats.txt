@@ -1,0 +1,7 @@
+input_transactions=88162
+valid_transactions=88159
+removed_zero_tu_transactions=3
+distinct_observed_items=16468
+item_occurrences=908483
+utility_table_items=16470
+zero_utility_items=16

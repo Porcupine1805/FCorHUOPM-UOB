@@ -1,0 +1,21 @@
+# Build
+build/
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local experiment scratch (keep committed selected-9 results)
+results/raw/smoke_raw.csv
+results/summary/smoke_summary.csv
+results/patterns/
+results/validation/rand_*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
