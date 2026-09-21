@@ -22,8 +22,8 @@ def run_one(cmd,timeout):
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--config",default="config/jiis_selected9_grid.csv")
-    ap.add_argument("--out",default="results/raw/jiis_selected9_raw.csv")
+    ap.add_argument("--config",default="config/selected9_grid.csv")
+    ap.add_argument("--out",default="results/raw/selected9_raw.csv")
     ap.add_argument("--modes",default=",".join(DEFAULT_MODES))
     ap.add_argument("--heap",default=os.environ.get("JAVA_HEAP","4g"))
     ap.add_argument("--xms",default=os.environ.get("JAVA_XMS","512m"))

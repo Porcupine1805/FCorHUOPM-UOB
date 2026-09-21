@@ -257,9 +257,9 @@ def write_speed_table(summary, out):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--summary", default="results/summary/jiis_selected9_summary.csv")
+    ap.add_argument("--summary", default="results/summary/selected9_summary.csv")
     ap.add_argument("--manifest", default="datasets/real/dataset_cleaning_manifest.csv")
-    ap.add_argument("--config", default="config/jiis_selected9_grid.csv")
+    ap.add_argument("--config", default="config/selected9_grid.csv")
     ap.add_argument("--figures", default="figures")
     ap.add_argument("--tables", default="results/tables")
     ap.add_argument("--datasets", default="")

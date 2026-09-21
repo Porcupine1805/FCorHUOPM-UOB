@@ -1,10 +1,10 @@
 # FCorHUOPM-UOB
 
-Reproducibility package for **Utility-Occupancy Bond for Exact Correlated High-Utility Occupancy Pattern Mining in Intelligent Information Systems**.
+Reproducibility package for **Utility-Occupancy Bond for Exact Correlated High-Utility Occupancy Pattern Mining**, submitted to the *International Journal of Data Science and Analytics* (JDSA).
 
 Public archive: https://github.com/Porcupine1805/FCorHUOPM-UOB
 
-This folder contains only what is needed to build the miner, check correctness, and reproduce the selected nine-dataset JIIS study. It does not include manuscript LaTeX, Word drafts, unused datasets, duplicate result snapshots, or legacy HUOPM sources.
+This folder contains only what is needed to build the miner, check correctness, and reproduce the selected nine-dataset JDSA study. It does not include manuscript LaTeX, Word drafts, unused datasets, duplicate result snapshots, or legacy HUOPM sources.
 
 ## Layout
 
@@ -81,7 +81,11 @@ The runner asserts that every `UOB_*` mode on the same dataset returns the same 
 
 ## Datasets
 
-The paper uses BMSPOS2, Chess, Foodmart, Kosarak, Mushroom, Retail, Pumsb, T10I4N4KD100K, and T10I4N4KD500K. Thresholds are in `config/jiis_selected9_grid.csv` and copied into every raw result row.
+The paper uses BMSPOS2, Chess, Foodmart, Kosarak, Mushroom, Retail, Pumsb, T10I4N4KD100K, and T10I4N4KD500K. Thresholds are in `config/selected9_grid.csv` and copied into every raw result row.
+
+## License
+
+MIT License. See `LICENSE`.
 
 ## Citation
 
